@@ -14,9 +14,9 @@ class CameraUtils: NSObject {
         return true
     }
     
-    @objc(getPages:resolver:rejecter:)
+    @objc(maxResolution:rejecter:)
     func maxResolution(
-                    resolver resolve: @escaping RCTPromiseResolveBlock,
+                    resolve: @escaping RCTPromiseResolveBlock,
                     rejecter reject: @escaping RCTPromiseRejectBlock) -> Void {
         
         resolve("123x456")
