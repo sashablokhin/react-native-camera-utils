@@ -9,7 +9,7 @@
 import Foundation
 import AVFoundation
 import UIKit
-import GPUImage
+
 
 @objc(CameraUtils)
 class CameraUtils: NSObject {
